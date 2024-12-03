@@ -25,6 +25,7 @@ class ConsultaController extends Controller
             'consulta' => 'required|string|max:255',
             'destino' => 'required|string|max:255',
             'tipo' => 'required|string|max:255',
+            'filial' => 'required|string|max:255',
         ]);
 
         try {

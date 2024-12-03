@@ -15,6 +15,7 @@ class Consulta extends Model
         'consulta',
         'destino',
         'tipo',
+        'filial',
     ];
     // Desativa o gerenciamento padrão de timestamps automáticos
     const CREATED_AT = null; // Sem coluna de criação

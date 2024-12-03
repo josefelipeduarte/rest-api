@@ -18,6 +18,7 @@ return new class extends Migration
         $table->string('consulta');
         $table->string('destino');
         $table->string('tipo');
+        $table->string('filial');
         $table->timestamps();
     });
 }
